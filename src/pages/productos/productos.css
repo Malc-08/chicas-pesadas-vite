@@ -147,49 +147,8 @@ html, body {
     overflow: hidden;
     text-overflow: ellipsis; 
   }
-  
-  /* Estilos del carousel personalizado */
-  .carousel-item {
-    max-height: 600px;
-  }
-  
-  .carousel-item img {
-    max-height: 200px;
-    object-fit: cover;
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
-    height: 30px;
-    width: 30px;
-    background-color: transparent;
-    border: none;
-    top: 35%;
-    transform: translateY(-35%);
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    height: 30px;
-    width: 30px;
-    background-color: transparent;
-    border: none;
-    filter: invert(1);
-  }
-  
-  /* Estilos de la imagen redondeada */
-  .rounded-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-  }
-  
-  .rounded-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+
+
   
   /* Estilos del footer personalizado */
   .custom-footer {
