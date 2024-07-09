@@ -2,10 +2,8 @@ const itemsController = new ItemsController();
 
 function addItemCard(item) {
     const itemHTML = `
-        <br>
-        <div class="col-card">
         <div class="card" style="width: 20rem;">
-            <img src="${item.imageUrl}" width="300"  alt="product image">
+            <img src="${item.imageUrl}" width="180px" alt="product image">
             <div class="card-body">
                 <h4 class="card-title">${item.name}</h4>
                 <!--<p class="card-text">${item.description}</p>-->
@@ -13,8 +11,6 @@ function addItemCard(item) {
                <!-- <a href="#" class="btn btn-primary">Add</a>-->
             </div>
         </div>
-        </div>
-        <br/>
     `;
     const itemsContainer = document.getElementById("list-items");
     itemsContainer.innerHTML += itemHTML;
@@ -37,7 +33,7 @@ function loadStorageSampleData() {
             },
             {
                 name: "Bustier Ale",
-                imageUrl: "/img/Bustier-Ale.jpg",
+                imageUrl: "/img/Bustier Ale (2).jpg",
                 description: "Bustier encaje negro",
                 price: "$799 MXN"
             },
@@ -54,8 +50,8 @@ function loadStorageSampleData() {
                 price: "$799 MXN"
             },
             {
-                name: "Set Susan",
-                imageUrl: "/img/Set-Susan.jpg",
+                name: "Set Cordelia",
+                imageUrl: "/img/Set-Cordelia.jpg",
                 description: "Set de encaje Angel",
                 price: "$799 MXN"
             },
@@ -78,11 +74,11 @@ function loadStorageSampleData() {
                 price: "$799 MXN"
             },
             {
-                name: "Set Cordelia",
-                imageUrl: "/img/Set-Cordelia.jpg",
+                name: "Set Susan",
+                imageUrl: "/img/Set-Susan.jpg",
                 description: "Set de encaje Angel",
                 price: "$799 MXN"
-            }
+            },
 
         ];
         localStorage.setItem("items", JSON.stringify(sampleItems));
