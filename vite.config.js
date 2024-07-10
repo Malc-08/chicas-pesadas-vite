@@ -11,7 +11,7 @@ export default defineConfig({
         contact: resolve(__dirname, 'src/pages/contacto/contacto.html'),
       },
       external: [
-        'src/pages/productos/itemsController.js', // Sustituye 'nombre-del-modulo-problematico' con el nombre real del módulo
+        'js/itemsController.js', // Sustituye 'nombre-del-modulo-problematico' con el nombre real del módulo
       ],
     },
   },
