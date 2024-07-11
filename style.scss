@@ -102,6 +102,148 @@ html, body {
   padding-bottom: 100px; 
 }
 
+
+.image-container {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.logo-olga {
+  width: 1220px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  max-width: 90vw;
+}
+
+.logo-olga .logo-img{
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .logo-olga {
+    width: 100%;
+    max-width: 90vw; /* Ajusta el ancho para dispositivos móviles */
+  }
+}
+
+/* Nueva sección: ¿Tienes dudas? */
+.contact-section {
+  background-color: #FCDCDB;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #464445;
+}
+
+.contact-button {
+  background-color: #C79FD0;
+  border: none;
+  color: #4A0125;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  display: inline-block;
+  text-decoration: none; /* Asegúrate de que el texto del enlace no tenga subrayado */
+}
+
+.contact-button:hover {
+  background-color: #d79ae4;
+}
+
+.review-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px; /* Añade margen superior para separar el carrusel del botón */
+}
+
+.carousel-images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.carousel-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.carousel-reviews {
+  display: flex;
+  justify-content: center;
+}
+
+.review-card {
+  background-color: #fff9f0;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: left;
+}
+
+.review-card h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.review-card p {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.review-card span {
+  color: gold;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .carousel-images {
+    flex-direction: column;
+  }
+
+  .carousel-image {
+    margin: 10px 0;
+  }
+
+  .carousel-reviews {
+    flex-direction: column;
+  }
+
+  .review-card {
+    margin: 10px 0;
+  }
+}
+
+
+
+
 /* Estilos para encabezados y párrafos */
 h6 {
   font-size: 15px;
@@ -130,7 +272,7 @@ p {
 
 /* Estilos del navbar personalizado */
 .custom-navbar {
-  background-color: #F5EBD2;
+  background-color: rgb(245, 235, 210);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
