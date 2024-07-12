@@ -31,6 +31,6 @@ class ItemsController {
 }
 
 // Exportar la clase si es necesario
-// export { ItemsController };
+export { ItemsController };
 
 

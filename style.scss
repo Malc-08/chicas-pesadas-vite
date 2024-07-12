@@ -116,21 +116,6 @@ html, body {
   height: auto;
 }
 
-.logo-olga {
-  width: 1220px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px 20px;
-  max-width: 90vw;
-}
-
-.logo-olga .logo-img{
-  max-width: 100%;
-  height: auto;
-}
-
 @media (max-width: 768px) {
   .logo-olga {
     width: 100%;
@@ -161,7 +146,9 @@ html, body {
   font-weight: 500;
   cursor: pointer;
   border-radius: 5px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin-left: auto;
+  margin-right: auto;
   display: inline-block;
   text-decoration: none; /* Asegúrate de que el texto del enlace no tenga subrayado */
 }
@@ -272,7 +259,7 @@ p {
 
 /* Estilos del navbar personalizado */
 .custom-navbar {
-  background-color: rgb(245, 235, 210);
+  background-color: rgb(245, 235, 210, .5);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 

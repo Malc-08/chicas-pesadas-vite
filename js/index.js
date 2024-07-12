@@ -1,5 +1,5 @@
 
-// Create a ItemsController class
+/* // Create a ItemsController class
 class ItemsController {
     // Set up the items and currentId property in the contructor
     constructor(currentId = 0) {
@@ -33,3 +33,4 @@ class ItemsController {
         }
     }
 }
+ */
